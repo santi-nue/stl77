@@ -1,4 +1,4 @@
-hhhhname: Run API Requests
+name: Run API Requests
 
 on:
   push:
