@@ -29,7 +29,7 @@ def export_data_to_csv():
 def get_url_page():
     global url
     options = Options()
-    options.headless = False
+    options.headless = True
     driver = webdriver.Chrome(options=options)
     driver.get(url)
     for i in range(1, 6):
